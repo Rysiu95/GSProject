@@ -1,0 +1,46 @@
+/* ogólne ------------------ */
+* {margin:0px; padding: 0px;}
+body { font: 16px Verdana; line-height:1.6; background: #34373e; }
+    #wrapper { width:90%; overflow:hidden; margin: 0 auto; }
+    a {color: #354458;}
+ 
+/* logo ------------ */
+#header { height:100px;   background: #34373e; margin: 0 0 10px 0; }
+    #header h1 {padding: 20px; color: #f6a108; text-align: center;}
+
+/* menu ------------ */
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	float: left;
+	width: 100%;
+	
+}
+
+ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	background-color: #ccc;
+	color: #000;
+	position: relative;
+	top: 1px;
+}
+
+ul a:hover {
+	background-color: #fff;
+	border-bottom-color: #fff;
+}
+  
+/* stopka -------------*/
+#stopka { background: #34373e; width:auto; float: bottom; padding: 1%; overflow: hidden; color:#f6a108; text-align: center;}
