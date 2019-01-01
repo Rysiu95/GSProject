@@ -1,4 +1,4 @@
 function jakasfunkcja()
 {
-    document.getElementById("demo").innerHTML = "Hello JavaScript";
+    alert('Mój numer telefonu to : 123-456-789')
 }
